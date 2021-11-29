@@ -2,7 +2,7 @@
 import codecs
 
 #Getting the file and reading it
-history_file = codecs.open('my_history.txt', 'r', 
+history_file = codecs.open('auto_complete_history.txt', 'r', 
                           encoding='utf8', errors='ignore')
 history_text = history_file.read()
 history_file.close()
