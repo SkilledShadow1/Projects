@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Aug  5 14:15:11 2021
-
-@author: ryder
-"""
-
 import requests
 import time
 from copy import deepcopy
