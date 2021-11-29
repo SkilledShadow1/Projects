@@ -64,7 +64,7 @@ def find_closest_centroid():
     return center_centroids(closest_centroid_dictionary)
     
     
-file_object = codecs.open('Emoji_Code.txt', 'r', encoding='utf8', errors='ignore')
+file_object = codecs.open('emoji_data.txt', 'r', encoding='utf8', errors='ignore')
 
 content_string = file_object.read()
 
