@@ -1,4 +1,3 @@
-#TODO format the code so it repeats multiple times and stop repeating answers
 import codecs
 
 #Getting the file and reading it
@@ -117,15 +116,13 @@ for search in possible_searches:
     get_words(search, top_5_searches)
 
 #sorts by recent searches
+#this will find most popular searches and print out ones that have less than 5
 for searches in top_5_searches[:5]:
     print(searches[1:])
 
 if(len(top_5_searches) == 0):
     print('I could not find any searches starting with this word or phrase')
-    
-#possible_answer = []
-#auto_complete(start_trie, possible_answer, end = False)
-#this will find most popular searches and print out ones that have less than 5
+
 
 
 
